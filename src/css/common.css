@@ -1,0 +1,1187 @@
+html {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input,
+textarea,
+select {
+  *font-size: 100%;
+}
+
+legend {
+  color: #000;
+}
+
+body {
+  font: 13px/1.231 "Poppins", helvetica, clean, sans-serif;
+  *font-size: small;
+  *font: x-small;
+}
+
+select,
+input,
+button,
+textarea {
+  font: 99% "Poppins", helvetica, clean, sans-serif;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+body {
+  background: #ffffff;
+}
+
+.wrapper {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 970px;
+}
+
+#header {
+  width: 100%;
+}
+
+#content {
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+}
+
+#footer {
+  width: 100%;
+}
+
+#no-print {
+  display: none;
+}
+
+html {
+  background-color: transparent;
+}
+
+body {
+  background: #fcfcf9;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  background: #fcfcf9;
+  min-width: 970px;
+}
+
+#header {
+  margin: 0 auto;
+  width: 100%;
+  background: #fcfcf9;
+  box-shadow: none;
+}
+
+#main {
+  width: 100%;
+}
+
+#content {
+  box-shadow: none;
+  background: transparent;
+  position: relative;
+}
+
+#footer {
+  width: 100%;
+  min-width: 970px;
+}
+
+#main,
+.flyout-outer {
+  visibility: visible;
+  transition: opacity 0.25s ease-in;
+}
+
+.loading #main,
+.loading .flyout-outer {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.loading-overlay {
+  background: transparent;
+  color: #444;
+  font-size: 16px;
+  left: 50%;
+  margin-left: -40px;
+  position: absolute;
+  text-align: center;
+  top: 125px;
+}
+
+.loading-overlay p {
+  margin-top: 16px;
+  margin-left: 12px;
+}
+
+img[width="1"],
+img[height="1"] {
+  display: none;
+}
+
+.wrapper {
+  z-index: 3;
+}
+
+#header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  background-color: #515256;
+}
+
+#hero {
+  z-index: 0;
+  margin-top: 100px;
+}
+
+#hero .col-sm-9 {
+  width: 100%;
+}
+
+@keyframes placeHolderShimmer {
+  0.01% {
+    background-position: -400px 0;
+  }
+
+  100% {
+    background-position: 400px 0;
+  }
+}
+
+#hero .animate-bg {
+  width: 970px;
+  height: 250px;
+  margin: auto;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 800px 104px;
+  display: block;
+}
+
+.mod-offeroftheweek .pod {
+  width: 298px;
+  height: 158px;
+}
+
+.mod-offeroftheweek .pod .right {
+  border-radius: 0 6px 6px 0;
+}
+
+.mod-offeroftheweek .pod .pod-info {
+  margin: 15px 15px 0 15px;
+}
+
+.mod-offeroftheweek .badge {
+  height: 67px;
+  position: absolute;
+  margin-top: -24px;
+  margin-left: -8px;
+  width: 67px;
+  border-radius: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8px;
+  color: #fff;
+  line-height: 13px;
+  background: #0098ff;
+  letter-spacing: 1px;
+}
+
+.mod-offeroftheweek .badge em {
+  font-size: 12px;
+  display: block;
+  line-height: 14px;
+}
+
+.mod-offeroftheweek .badge span {
+  margin-top: 13px;
+  display: block;
+}
+
+.mod-offeroftheweek .pod .pod-media {
+  border-radius: 6px 0 0 6px;
+}
+
+.mod-offeroftheweek .pod .pod-media .pod-image {
+  height: 100px;
+  width: 80px;
+}
+
+.clearfix {
+  clear: both;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+.sprite-icons {
+  background-image: url("//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/sprite_icon_28.png");
+  background-repeat: no-repeat;
+}
+
+.sprite-pod {
+  background-image: url("//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/sprite_pod_2.png");
+  background-repeat: no-repeat;
+}
+
+.sprite_rebrand_pod {
+  background-image: url(https://cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/Rebranding_icons/pod_icon.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+}
+
+.triangle {
+  border-color: transparent transparent transparent #08b4df;
+  border-style: solid;
+  border-width: 6px 4px;
+  height: 0;
+  width: 0;
+  position: relative;
+  bottom: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 0;
+}
+
+.triangle-down {
+  border-color: #08b4df transparent transparent transparent;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-cta,
+.cta-button {
+  background: #0098ff;
+  border: 0;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 3px;
+  letter-spacing: 0;
+}
+
+.mod-ads {
+  overflow: hidden;
+}
+
+.mod-gallery .mod-ads.container-mrec {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.mod-ads.container-hero {
+  text-align: center;
+  max-width: inherit;
+  min-height: inherit;
+  margin: 0 auto 10px auto;
+}
+
+.mod-ads.container-leaderboard,
+.mod-ads.container-last_leaderboard {
+  background-color: #f5f5f5;
+  padding-top: 25px;
+  width: 728px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.mod-ads.container-leaderboard iframe,
+.mod-ads.container-last_leaderboard iframe {
+  margin: 0 auto;
+  width: 728px;
+  display: block;
+}
+
+.mod-gallery .mod-ads.container-leaderboard,
+.mod-gallery .mod-ads.container-last_leaderboard {
+  background-color: transparent;
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+.mod-ads.container-leavebehind {
+  height: 0;
+  background: #fcfcf9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  margin-top: 0;
+  overflow: hidden;
+  transition: height 200ms;
+  text-align: center;
+}
+
+.mod-ads.container-leavebehind iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.mod-ads.container-last_leaderboard {
+  padding-top: 0;
+}
+
+.mod-ads.container-leaderboard,
+.mod-ads.container-last_leaderboard {
+  display: none;
+}
+
+.mod-gallery .mod-ads.container-leaderboard,
+.mod-gallery .mod-ads.container-last_leaderboard,
+.mod-ads.container-last_leaderboard.show-leader-board-in-bottom {
+  display: block;
+}
+
+.menu .curr-title {
+  border-top: 3px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  color: #444;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 4em;
+  padding: 0 17px;
+  text-transform: uppercase;
+}
+
+.menu .curr-title .triangle-down {
+  border-color: #535355 transparent transparent;
+  bottom: 0;
+  left: 4px;
+}
+
+.menu .sub {
+  display: none;
+  z-index: 2;
+  background-color: #fbfbfb;
+  background-color: hsla(0, 0, 98%, 1);
+  position: absolute;
+  left: 1px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  box-shadow: 0 3px 3px hsla(0, 0, 0, 0.2);
+}
+
+.menu.button-look {
+  padding: 7px 0;
+  margin-left: 12px;
+  top: -1px;
+}
+
+.menu.button-look .curr-title {
+  border: 1px solid #c8c8c8;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 0 10px;
+  line-height: 40px;
+}
+
+.menu.button-look .curr-title-desc {
+  position: relative;
+  font-weight: 600;
+}
+
+.menu.button-look .curr-title .triangle-down {
+  bottom: -1px;
+}
+
+.mod-categories {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+}
+
+.mod-categories.menu .curr-title .triangle-down {
+  border-color: transparent;
+  background-position: -6px -1438px;
+  border-width: 6px 6px;
+  display: inline-block;
+}
+
+.mod-categories.menu .sub {
+  background: #fff;
+  padding: 5px 4px 7px 5px;
+  font-weight: 400;
+}
+
+.mod-codeswidget {
+  background-color: #f6f6f6;
+  height: 337px;
+  width: 300px;
+  color: #444;
+  z-index: 1;
+  font-weight: 400;
+}
+
+.mod-codeswidget .on-page {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.mod-codeswidget .on-page h2 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  height: 45px;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container {
+  width: 95%;
+  margin: 15px auto 22px;
+  background-color: #fff;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container .promo-unit {
+  height: 64px;
+  line-height: 64px;
+  vertical-align: middle;
+  margin: 0;
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+  position: relative;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container .promo-unit .left {
+  float: left;
+  width: 70%;
+  height: 100%;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container .promo-unit .left img {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container .promo-unit .right {
+  float: left;
+  width: 26%;
+  color: #444;
+  font-weight: 500;
+}
+
+.mod-codeswidget
+  .on-page
+  .promoted-codes-container
+  .promo-unit-link
+  .promo-unit
+  .right:after {
+  content: ">";
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin: -45px 70px;
+  width: 8px;
+}
+
+.mod-codeswidget .on-page .promoted-codes-container .promo-unit .right p {
+  font-size: 0.8em;
+  line-height: 1em;
+  margin-top: 20px;
+}
+
+.mod-codeswidget .on-page a {
+  color: #444;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.mod-codeswidget a.codes-link {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.mod-codeswidget .slide-container {
+  background: transparent none repeat scroll 0 0;
+  height: 0;
+  margin-left: -660px;
+  margin-top: -312px;
+  overflow: hidden;
+  position: absolute;
+  width: 660px;
+}
+
+.mod-codeswidget .flyout {
+  background-color: #fdf8f2;
+  height: 337px;
+  margin-left: 660px;
+  text-align: center;
+  width: 660px;
+  z-index: 0;
+  margin-left: 660px;
+  transition-property: margin-left;
+  transition-duration: 200ms;
+  -webkit-transition-property: margin-left;
+  -webkit-transition-duration: 200ms;
+  -moz-transition-property: margin-left;
+  -moz-transition-duration: 200ms;
+}
+
+.mod-staticcontent .mobile-image-content img {
+  width: 300px;
+  height: 70px;
+}
+
+.mod-couponcarrier .clip-stats h3 {
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.mod-couponcarrier .clip-stats h3 em {
+  font-size: 16px;
+  font-weight: 600;
+  padding-right: 1px;
+  color: #444;
+}
+
+.mod-couponcarrier {
+  display: block;
+  width: 100%;
+  background: #fdf8f2;
+  background: linear-gradient(#fdf8f2);
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  height: 54px;
+}
+
+.mod-couponcarrier .content-positioning {
+  margin: 0 auto;
+  padding-left: 10px;
+  position: relative;
+  width: 980px;
+}
+
+.mod-couponcarrier .clip-stats {
+  display: inline-block;
+  position: absolute;
+  right: 554px;
+  top: 16px;
+}
+
+.mod-couponcarrier .mod-savingsmeter {
+  display: inline-block;
+  position: absolute;
+  right: 343px;
+  top: 13px;
+}
+
+#root {
+  height: 100%;
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  display: none;
+  width: 100%;
+}
+
+#mod-couponcarrier-noCoupon-msg {
+  background-color: #fcf7e3;
+  height: 62px;
+  display: none;
+}
+
+#mod-couponcarrier-info-msg {
+  display: none;
+  height: 62px;
+  background: #cde2e3;
+  text-align: center;
+  line-height: 62px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+mod-couponcarrier .mylist-button {
+  cursor: pointer;
+  padding: 0;
+  position: static;
+  font-weight: 500;
+  color: #333;
+  font-size: 16px;
+  border-radius: 22px;
+  background: #ffd57d;
+}
+
+.mod-couponcarrier .mylist-button {
+  display: inline-block;
+  position: absolute;
+  right: 22px;
+  top: 6px;
+  border: 0;
+}
+
+.mod-couponcarrier .mylist-button .title {
+  padding-left: 20px;
+  padding-right: 12px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  border-right: 1px solid #fff;
+  display: inline-block;
+}
+
+.mod-couponcarrier .mylist-button .number {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 43px;
+}
+
+.mod-couponcarrier .cta-button {
+  cursor: pointer;
+  padding: 0;
+  position: static;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.mod-couponcarrier .cta-button.print-button {
+  display: inline-block;
+  position: absolute;
+  right: 165px;
+  top: 6px;
+}
+
+.mod-couponcarrier .cta-button .title {
+  background-position: -224px -110px;
+  padding-left: 41px;
+  padding-right: 12px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  border-right: 1px solid #fff;
+  display: inline-block;
+}
+
+.mod-couponcarrier .cta-button .number {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 2px;
+  padding: 0 15px;
+}
+
+.mod-couponcarrier .cta-button.clipped-none {
+  cursor: default;
+  text-shadow: none;
+  background: #adadad;
+}
+
+.mod-sitenav {
+  display: none;
+  margin-left: 0;
+}
+
+.mod-savingsmeter .bar {
+  background-color: #fff;
+  border-radius: 15px 15px 15px 15px;
+  height: 25px;
+  padding: 2px 0 0 2px;
+  width: 200px;
+  border: 1px solid #e8e8e8;
+}
+
+.mod-savingsmeter .savings-bar {
+  background: #4db1a8;
+  border-radius: 13px 13px 13px 13px;
+  color: #fff;
+  max-width: 185px;
+  min-width: 34px;
+  padding: 3px 6px 4px 7px;
+  text-align: right;
+  width: 0;
+  font-weight: 600;
+}
+
+.mod-savingsmeter .savings-bar.clipped-none {
+  min-width: 15px;
+}
+
+.mod-gallery .pod {
+  border-radius: 5px;
+}
+
+.pod {
+  background: none repeat scroll 0 0 #fff;
+  cursor: pointer;
+  height: 158px;
+  width: 298px;
+  border-radius: 0;
+  border: 1px #ccc solid;
+  position: relative;
+  box-shadow: none;
+}
+
+.pod .hover {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  visibility: hidden;
+  position: absolute;
+  text-transform: lowercase;
+  width: 298px;
+  height: 160px;
+  margin: 0;
+  background: 0;
+}
+
+.pod.video .circle,
+.pod.cpc .circle,
+.pod .circle {
+  width: 40px;
+  height: 40px;
+  visibility: visible;
+  position: absolute;
+  bottom: 10px;
+  right: -14px;
+  background-repeat: no-repeat;
+  background-position: right 0;
+  border-radius: 50%;
+  background-image: none;
+  border: 2px solid #0098ff;
+  background-color: #fff;
+}
+
+.corner-plus {
+  color: #0098ff;
+  font-size: 27px;
+  position: absolute;
+  top: 4px;
+  left: 11px;
+  font-weight: 500;
+}
+
+.pod-click-text {
+  float: left;
+  font-size: 14px;
+  width: 200px;
+  height: 0;
+  position: relative;
+  left: -140px;
+  top: 25px;
+  display: none;
+}
+
+pod .hover p {
+  color: #222;
+  font-size: 1.53em;
+  text-align: center;
+}
+
+.pod .hover p.click-text-sec {
+  font-size: 1em;
+}
+
+.pod .clipped-container {
+  display: none;
+}
+
+.pod .left {
+  float: left;
+  overflow: hidden;
+  width: 37%;
+  height: 160px;
+}
+
+.pod .right {
+  float: right;
+  overflow: hidden;
+  width: 63%;
+  height: 160px;
+}
+
+.pod .pod-media {
+  height: 100px;
+  margin: 24px auto auto;
+  width: 80px;
+}
+
+.pod .pod-info {
+  margin: 15px 15px 0 1px;
+}
+
+.pod .pod-info p {
+  font-size: 12px;
+  color: #818080;
+  font-weight: 400;
+}
+
+.pod .right .pod-info .summary {
+  font-weight: 700;
+  color: #333;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.pod .right .pod-info .brand {
+  font-weight: 500;
+  color: #5c5c5c;
+  font-size: 16px;
+}
+
+.promo-unit {
+  margin: 10px 20px 0 20px;
+}
+
+pod .special-campaign-badge {
+  display: block;
+  background: url("//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/boxtop-education-badge.png")
+    no-repeat;
+  background-size: 100%;
+  height: 50px;
+  width: 81px;
+  position: absolute;
+  margin-top: 104px;
+  margin-left: -14px;
+}
+
+.pod .special-campaign-badge.hidden,
+.pod.clipped .special-campaign-badge.show {
+  display: none;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .pod .special-campaign-badge {
+    background: url("//cdn.cpnscdn.com/static.coupons.com/Sites/img/urban/boxtop-education-badge.png")
+      no-repeat;
+    background-size: 81px 50px;
+  }
+}
+
+.grid_1 {
+  width: 320px;
+}
+
+.grid_2 {
+  width: 640px;
+}
+
+.grid_3 {
+  width: 935px;
+}
+
+.column {
+  float: left;
+  display: inline;
+  line-height: 0;
+}
+
+.column > * {
+  line-height: 1.231;
+}
+
+.row {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+  clear: both;
+}
+
+.row .row {
+  width: auto;
+  display: inline-block;
+}
+
+.mod-gallery {
+  padding-left: 15px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 22px;
+  position: relative;
+}
+
+.mod-gallery .tools {
+  padding: 0 0 22px 0;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 20px;
+  background: #ebebea;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #cdcdcd;
+  border-bottom: 0;
+}
+
+.mod-gallery .tools.inactive {
+  background-color: rgba(53, 151, 211, 0.75);
+}
+
+.mod-gallery .selectall {
+  display: inline-block;
+  padding: 0 20px 0 20px;
+  line-height: 40px;
+  height: 40px;
+  border-right: 1px solid #cdcdcd;
+}
+
+.mod-gallery .selectall-chk,
+.mod-gallery .selectall label {
+  cursor: pointer;
+}
+
+.mod-gallery .selectall label {
+  margin-left: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+
+.mod-gallery .tools .goto-top {
+  padding: 11px 25px 0 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  display: inline-block;
+}
+
+.mod-gallery .loading-indicator,
+.mod-gallery .page-break {
+  clear: both;
+  text-align: center;
+}
+
+.mod-gallery .seg-label {
+  margin: 0 0 15px 9px;
+  clear: both;
+  display: block;
+}
+
+.mod-gallery .seg-label.homepage-title {
+  margin-bottom: 25px;
+}
+
+.mod-gallery .seg-label h2 {
+  color: #333;
+  font-size: 12px;
+  display: inline;
+  font-weight: 400;
+}
+
+.mod-gallery .seg-label h1 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  display: inline;
+  margin-right: 8px;
+}
+
+.mod-gallery .seg-label em {
+  font-weight: 600;
+}
+
+.mod-gallery .more,
+.mod-gallery .backtohome {
+  margin-left: -12px;
+  text-align: center;
+}
+
+.mod-gallery .more button {
+  cursor: pointer;
+  margin: 12px auto 30px -9px;
+  padding: 12px 102px;
+}
+
+.mod-gallery .pod {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 981px) {
+  .mod-gallery .seg-label.homepage-title {
+    width: 83%;
+  }
+}
+
+.mod-messagebox.success {
+  background: #4db1a8;
+}
+
+.mod-printform.dialog {
+  display: none;
+}
+
+.submitreciptsmswidget {
+  position: relative;
+  z-index: 10000;
+}
+
+.mod-smswidget-background {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150%;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  display: none;
+}
+
+.mod-userstudy {
+  cursor: pointer;
+}
+
+.mod-userstudy .fixed-tab {
+  position: fixed;
+  top: 233px;
+  right: -34px;
+  border-radius: 3px 3px 0 0;
+  bottom: 0;
+  height: 20px;
+  padding: 10px 0 7px 0;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  background: #4db1a8;
+}
+
+.mod-userstudy .fixed-tab button,
+.mod-userstudy .fixed-tab a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0 20px;
+  background-color: transparent;
+  border: 0;
+  font-weight: 600;
+}

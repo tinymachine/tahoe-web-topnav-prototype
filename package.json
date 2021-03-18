@@ -1,0 +1,21 @@
+{
+  "name": "tahoe-web-topnav-prototype",
+  "version": "1.0.0",
+  "description": "Show CSS changes need to get nav bar layout to work with 'Cash Back Offers', etc. added.",
+  "scripts": {
+    "clean": "rimraf ./public",
+    "prebuild": "mkdirp public",
+    "copy-files": "copyfiles --up 1 ./src/* ./src/**/* --exclude ./src/diff-template/**/* public",
+    "gen-diff": "mkdirp public/diff && diff -u ./src/css/current.css ./src/css/updated.css | diff2html -i stdin --highlightCode false --style side --file ./public/diff/index.html --output stdout --htmlWrapperTemplate ./src/diff-template/template.html --summary hidden",
+    "build": "npm run clean && npm run prebuild && npm run copy-files && npm run gen-diff"
+  },
+  "author": "Mihira Jayasekera <mihira@tinymachine.net>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "copyfiles": "^2.3.0",
+    "diff2html-cli": "^5.1.2",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2"
+  }
+}
