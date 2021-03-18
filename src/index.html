@@ -138,6 +138,16 @@
       .diff-button:hover {
         box-shadow: 0 8px 24px -12px rgba(0, 0, 0, 0.5);
       }
+
+      .repo {
+        font-size: 0.875rem;
+        color: #666;
+        transition: color 0.25s ease-in-out;
+      }
+
+      .repo:hover {
+        color: #222;
+      }
     </style>
   </head>
   <body>
@@ -153,21 +163,35 @@
 
       <div class="navbar">
         <h2>Current nav</h2>
-        <iframe scrolling="no" src="./current-navbar.html"></iframe>
+        <iframe scrolling="no" src="./nav-markup/current-navbar.html"></iframe>
       </div>
 
       <div class="navbar">
         <h2>Updated nav with same CSS</h2>
-        <iframe scrolling="no" src="./current-style-addl-link.html"></iframe>
+        <iframe
+          scrolling="no"
+          src="./nav-markup/current-style-addl-link.html"
+        ></iframe>
       </div>
 
       <div class="navbar">
         <h2>Updated nav with tweaked CSS</h2>
-        <iframe scrolling="no" src="./updated-style-addl-link.html"></iframe>
+        <iframe
+          scrolling="no"
+          src="./nav-markup/updated-style-addl-link.html"
+        ></iframe>
       </div>
 
       <div style="text-align: center">
         <a class="diff-button" href="./diff/">View CSS diff &RightArrow;</a>
+
+        <p>
+          <a
+            class="repo"
+            href="https://github.com/tinymachine/tahoe-web-topnav-prototype"
+            >View code for this demo on GitHub &RightArrow;</a
+          >
+        </p>
       </div>
     </main>
   </body>
