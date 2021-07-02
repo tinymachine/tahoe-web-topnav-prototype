@@ -655,7 +655,7 @@ header {
 
 .desktop-menu ul,
 .desktop-menu ul li {
-  display: inline-block;
+  display: flex; /* Makes alignment easier */
 }
 
 .desktop-menu ul li a {
@@ -1358,9 +1358,9 @@ header {
   text-align: center;
 }
 
-.desktop-menu ul li.webf-layout a {
+/* .desktop-menu ul li.webf-layout a {
   margin-top: 1px;
-}
+}*/ /* This was breaking the layout on some nav items. */ 
 
 .top-head-txt {
   margin-left: 2%;
