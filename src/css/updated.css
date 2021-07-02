@@ -656,6 +656,7 @@ header {
 .desktop-menu ul,
 .desktop-menu ul li {
   display: flex; /* Makes alignment easier */
+  padding-right: 10px;
 }
 
 .desktop-menu ul li a {
